@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Data Antropometri anda berhasil disimpan!"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-20dp"
+        android:gravity="center"
+        android:id="@+id/textView46"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Tinggi Badan (Meter)"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="-10dp"
+        android:id="@+id/textView39"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#8b8b8b" />
+
+    <TextView
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textColor="@color/colorPrimary"
+    android:id="@+id/text_tb"
+    android:text="Tinggi"
+    android:gravity="center"
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Berat Badan (Kilogram)"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="-10dp"
+        android:id="@+id/textView40"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#8b8b8b" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/text_bb"
+        android:text="Berat"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Indeks Massa Tubuh"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="-10dp"
+        android:id="@+id/textView41"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#8b8b8b" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="30dp"
+        android:layout_gravity="center"
+        android:layout_height="17dp"
+        android:id="@+id/text_imt"
+        android:text="IMT"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Kategori Berat Badan"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="-10dp"
+        android:id="@+id/textView42"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#8b8b8b" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_kategori"
+        android:text="Kategori"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Usia"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="-10dp"
+        android:id="@+id/textView43"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#8b8b8b" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/text_umur"
+        android:text="Umur"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Jenis Kelamin"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="-10dp"
+        android:id="@+id/textView44"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#8b8b8b" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/text_jk"
+        android:text="J.K"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearance"
+        android:text="Tingkat Aktivitas Harain"
+        android:id="@+id/textView45"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="-10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#8b8b8b" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_aktv"
+        android:layout_gravity="center"
+        android:text="Aktivitas"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+</LinearLayout>

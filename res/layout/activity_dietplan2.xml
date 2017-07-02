@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.rihaf.diabetesdietexpert.dietplan2Activity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_dietplan2" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_snack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="340dp"
+        android:src="@drawable/ic_cake_black_24dp"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:visibility="invisible"
+        app:backgroundTint="#2267a4"
+        android:onClick="SnackClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="360dp"
+        android:layout_marginRight="75dp"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Snack"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:id="@+id/textViewSnack"
+        android:layout_gravity="bottom|end"
+        android:visibility="invisible"
+        android:background="#ffffff" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_dinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="260dp"
+        android:src="@drawable/ic_local_dining_black_24dp"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:backgroundTint="@color/fab1_dinner"
+        android:visibility="invisible"
+        android:onClick="DinnerClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="280dp"
+        android:layout_marginRight="75dp"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Makan Malam"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:id="@+id/textViewDinner"
+        android:layout_gravity="bottom|end"
+        android:visibility="invisible"
+        android:background="#ffffff" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_lunch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="180dp"
+        android:src="@drawable/ic_local_dining_black_24dp"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:backgroundTint="@color/fab1_lunch"
+        android:visibility="invisible"
+        android:onClick="LunchClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:layout_marginRight="75dp"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Makan Siang"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:id="@+id/textViewLunch"
+        android:layout_gravity="bottom|end"
+        android:visibility="invisible"
+        android:background="#ffffff" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_breakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/ic_local_dining_black_24dp"
+        android:elevation="6dp"
+        android:text="@string/ok"
+        app:pressedTranslationZ="12dp"
+        app:backgroundTint="@color/fab1_breakfast"
+        android:visibility="invisible"
+        android:onClick="SarapanClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:layout_marginRight="75dp"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Sarapan"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:id="@+id/textViewBreakfast"
+        android:layout_gravity="bottom|end"
+        android:visibility="invisible"
+        android:background="#ffffff" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_action_name"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>

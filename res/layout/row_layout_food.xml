@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:weightSum="1"
+    android:background="@drawable/my_selector">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="9dp"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        android:id="@+id/txt_food2"
+        android:text="Food"
+        android:gravity="left"
+        android:textColor="#727272" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:id="@+id/txt_portion2"
+        android:text="Portion"
+        android:textColor="#727272" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:id="@+id/txt_cal2"
+        android:text="Kalori"
+        android:textColor="#727272" />
+
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:id="@+id/txt_kalgram"
+        android:text="Kal/gr"
+        android:textColor="#727272" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txt_protein2"
+        android:text="Protein"
+        android:textColor="#727272" />
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/txt_fat2"
+        android:text="Fat"
+        android:textColor="#727272" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/txt_carb2"
+        android:text="Carb"
+        android:textColor="#727272" />
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/profilsaya"
+            android:title="Data Saya" />
+        <item
+            android:id="@+id/nav_dietplan"
+            android:icon="@drawable/ic_vector_dietplan"
+            android:title=" Susunan Diet" />
+        <item
+            android:id="@+id/nav_journal"
+            android:icon="@drawable/ic_vector_journal"
+            android:title="Jurnal Diet" />
+        <item
+            android:id="@+id/nav_foodlist"
+            android:icon="@drawable/ic_vector_foodlist"
+            android:title="Daftar Makanan" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_vector_history"
+            android:title="Riwayat" />
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/ic_vector_reminder"
+            android:title="Pengingat" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/infodiet"
+                android:title="Info Diet Diabtes" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="About" />
+
+        </menu>
+    </item>
+
+</menu>

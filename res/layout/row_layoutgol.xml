@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="#dde7f3">
+    
+    <TextView
+
+        android:layout_marginTop="-25dp"
+        android:layout_marginBottom="-25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        android:id="@+id/text_mealtime"
+        android:text="Here Meal"
+        android:gravity="left"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:id="@+id/text_calorie"
+        android:text="Cal"
+        android:layout_marginTop="-25dp"
+        android:layout_marginBottom="-25dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:background="#f4f8ff" />
+
+    <TextView
+
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:id="@+id/text_carb"
+        android:layout_marginTop="-36dp"
+        android:text="Here carb"
+        android:gravity="center"
+        android:textColor="#575656" />
+    <TextView
+
+        android:textColor="#575656"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="70dp"
+        android:layout_height="130dp"
+        android:background="#f4f8ff"
+        android:id="@+id/text_protein"
+        android:text="Here Protein"
+        android:layout_marginTop="-35dp"
+        android:layout_marginBottom="-25dp"
+        android:gravity="center"
+        />
+    <TextView
+
+
+        android:layout_marginTop="-35dp"
+        android:layout_marginBottom="-25dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="70dp"
+        android:layout_height="75dp"
+        android:textColor="#575656"
+        android:id="@+id/text_veggie"
+        android:text="Vegetable"
+        android:gravity="center"
+        />
+    <TextView
+        android:textColor="#575656"
+        android:layout_marginTop="-35dp"
+        android:layout_marginBottom="-25dp"
+        android:layout_width="70dp"
+        android:layout_height="130dp"
+        android:background="#f4f8ff"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/text_fruit"
+        android:text="Here Fruits"
+        android:gravity="center"
+        />
+    <TextView
+
+
+        android:layout_width="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginBottom="-25dp"
+        android:textColor="#575656"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/text_milk"
+        android:text="Milk"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>

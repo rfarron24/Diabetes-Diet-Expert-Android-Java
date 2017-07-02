@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b4d80</color>
+    <color name="colorPrimaryDark">#143e5e</color>
+    <color name="colorAccent">#264978</color>
+
+    <color name="fab1_breakfast">#a8d0fd</color>
+    <color name="fab1_lunch">#5ba4f2</color>
+    <color name="fab1_dinner">#3a8bcd</color>
+</resources>

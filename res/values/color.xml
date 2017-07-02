@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name = "dark_blue">#1b4f72</drawable>
+    <drawable name = "Bright_blue">#FFB3D1FF</drawable>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rihaf.diabetesdietexpert">
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HistoryActivity"
+            android:label="@string/history_name" />
+        <activity
+            android:name=".aboutActivity"
+            android:label="@string/about_name" />
+        <activity
+            android:name=".dietplan2Activity"
+            android:label="@string/journal_name" />
+        <activity
+            android:name=".dietplanActivity"
+            android:label="@string/inputantropometeri_name" />
+        <activity
+            android:name=".DataListActivity"
+            android:label="@string/antropometri_name" />
+        <activity
+            android:name=".dietplanActivityedit"
+            android:label="@string/dataedit_name" />
+        <activity
+            android:name=".DbControl"
+            android:label="@string/dbcontrol_name" />
+        <activity
+            android:name=".FirstSetupActivity"
+            android:label="@string/firstsetup_name" />
+
+        <activity android:name=".TemporaryActivity" />
+        <activity
+            android:name=".DataListActivityGol"
+            android:label="@string/gologandiet_name" />
+        <activity
+            android:name=".JournalDiet"
+            android:label="@string/inputjurnal_name" />
+        <activity
+            android:name=".DataListActivityFoodlist"
+            android:label="@string/foodlist_name" />
+        <activity
+            android:name=".UserAddFoodlistActivity"
+            android:label="@string/addfoodlist_name" />
+        <activity
+            android:name=".ReminderActivity"
+            android:label="@string/reminder_name" />
+
+        <receiver android:name=".Notification_reciever" />
+        <receiver android:name=".Notification_reciever2" />
+        <receiver android:name=".Notification_reciever3" />
+
+        <activity
+            android:name=".InfoDiabetes"
+            android:label="@string/infodiabetes_name" />
+
+        <activity android:name=".WarningPage" />
+
+        <activity android:name=".JournalDiet2"
+            android:label="@string/inputjurnal_name"></activity>
+    </application>
+
+
+</manifest>

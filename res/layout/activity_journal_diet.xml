@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="370dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rihaf.diabetesdietexpert.JournalDiet"
+    android:background="@color/colorPrimaryDark">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendartxt"
+        android:layout_marginTop="62dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:hint="Date"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_portion"
+        android:hint="Portion"
+        android:layout_marginLeft="10dp"
+        android:textSize="17dp"
+        android:layout_alignTop="@+id/textView73"
+        android:layout_toEndOf="@+id/textView73"
+        android:textColor="#b2c6db" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_calorie"
+        android:hint="Calorie"
+        android:textSize="17dp"
+        android:layout_alignBottom="@+id/textView74"
+        android:layout_alignStart="@+id/txt_portion"
+        android:textColor="#b2c6db" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_foodname2"
+        android:layout_marginTop="60dp"
+        android:gravity="left"
+        android:hint="F. Name"
+        android:layout_marginLeft="2dp"
+        android:textSize="17dp"
+        android:layout_below="@+id/calendartxt"
+        android:layout_alignStart="@+id/txt_portion"
+        android:textColor="#b2c6db" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txt_waktumakan"
+        android:hint="Meal Time"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nama   :"
+        android:textStyle="bold"
+        android:id="@+id/textView72"
+        android:layout_alignTop="@+id/txt_foodname2"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Porsi     :"
+        android:textStyle="bold"
+        android:id="@+id/textView73"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/txt_foodname2"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Kalori    :"
+        android:textStyle="bold"
+        android:id="@+id/textView74"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="    x"
+        android:id="@+id/textView75"
+        android:layout_alignTop="@+id/txt_portion"
+        android:layout_toEndOf="@+id/txt_portion"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/qty"
+        android:layout_alignBottom="@+id/textView75"
+        android:layout_above="@+id/textView74"
+        android:layout_alignParentEnd="true"
+        android:text="1"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txt_kaloritotaljurnal"
+        android:textStyle="bold"
+        android:layout_marginTop="305dp"
+        android:layout_marginLeft="260dp"
+        android:textColor="#ffffff"
+        android:hint="_______" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="20dp"
+        android:id="@+id/idzz"
+        android:hint="ID 1"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignBottom="@+id/txt_waktumakan"
+        android:layout_alignStart="@+id/qty" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/id3"
+        android:hint="ID 3"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/idzz"
+        android:layout_alignEnd="@+id/txt_portion" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Hitung Total Kalori   "
+        android:id="@+id/button"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_below="@+id/txt_calorie"
+        android:layout_alignParentEnd="true"
+        android:onClick="ButtonHitungTotalKalori"
+        android:textColor="#ffffff"
+        android:background="#519bd0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/currentcal2"
+        android:layout_above="@+id/txt_foodname2"
+        android:layout_alignEnd="@+id/txt_kaloritotaljurnal"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/calgoldiet2"
+        android:layout_below="@+id/calendartxt"
+        android:layout_alignEnd="@+id/txt_waktumakan"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+</RelativeLayout>
